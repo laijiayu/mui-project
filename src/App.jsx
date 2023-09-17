@@ -66,7 +66,7 @@ const App = () => {
           )
         })}
       </Box>
-      {/* <ImageList variant="masonry" cols={col} gap={3}>
+      <ImageList variant="masonry" cols={col} gap={3}>
         {itemData.map((item) => (
           <ImageListItem key={item.img}>
             <img
@@ -77,7 +77,7 @@ const App = () => {
             />
           </ImageListItem>
         ))}
-      </ImageList> */}
+      </ImageList>
     </Container>
   )
 }
